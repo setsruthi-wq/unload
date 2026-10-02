@@ -1,0 +1,30 @@
+{
+  "name": "unload-server",
+  "version": "1.0.0",
+  "description": "Backend API for UNLOAD - Digital Guardian and Screen Addiction Prevention",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "unload",
+    "safesprout",
+    "screen-addiction-prevention",
+    "digital-guardian"
+  ],
+  "author": "Team Safesprout",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
